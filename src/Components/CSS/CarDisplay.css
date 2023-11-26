@@ -1,0 +1,111 @@
+.carDisplayBody {
+  margin-top: 1vh;
+  background-color: #edf1f6;
+  padding: 2vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.carCart {
+  padding: 2vh;
+  border-radius: 20px;
+  background-color: #edf1f6;
+  box-shadow: 0 0 2px;
+}
+
+.headingCart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modelYear {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #a4d0f5;
+  padding: 1vh;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+
+.cartIconDisplay {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 0.8rem;
+}
+
+.media-image {
+  border-radius: 20px;
+  object-fit: fill;
+  height: 200px;
+  width: auto;
+}
+
+.priceHead {
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.card-body {
+  background-color: #edf1f6;
+}
+
+.noResult{
+  height: 80vh;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .carDisplayBody {
+    grid-template-columns: none;
+  }
+
+  .container {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .card-body {
+    padding: 1vh;
+  }
+
+  .media-image {
+    height: 150px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .modelYear {
+    padding: 5px;
+  }
+
+  .media-image {
+    height: 150px;
+  }
+  .hr {
+    margin: 1vh;
+  }
+
+  .priceHead {
+    font-size: 1rem;
+    font-weight: 505;
+  }
+
+  .rentNow {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .card-body {
+    padding: 1vh;
+  }
+
+  .noResult{height: 86.2vh}
+}
